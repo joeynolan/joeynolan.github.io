@@ -1,0 +1,72 @@
+<html>
+
+  <head>
+    <title> forms </title>
+  </head>
+
+  <body>
+
+    <form action="" method="get">
+      <p> What is your favorite country? </p>
+        <textarea name="comments" rows="5" cols="10">Enter your comments ... </textarea>
+    </form>
+
+    <form action="" method="get">
+      <p> What is your favorite region of the United States? </p>
+        <br />
+        <input type="radio" name="regionChoice" value="West Coast" /> West Coast
+        <input type="radio" name="regionChoice" value="Great Plains" /> Great Plains
+        <input type="radio" name="regionChoice" value="Southwest" /> Southwest
+        <input type="radio" name="regionChoice" value="Rocky Mountains" /> Rocky Mountains
+        <input type="radio" name="regionChoice" value="Heartland" /> Heartland
+        <input type="radio" name="regionChoice" value="Southeast" /> Southeast
+        <input type="radio" name="regionChoice" value="East Coast" /> East Coast
+      </p>
+    </form>
+
+    <form action="" method="get">
+      <p> What is your favorite number from 1 to 10? </p>
+      <select name="numberChoice">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </form>
+
+    <form action="" method="get">
+      <p> What is your favorite car brand </p>
+      <select name="brand" size="4" multiple="multiple">
+        <option value="Toyota" selected="selected">Toyota</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="Ford" selected="selected">Ford</option>
+        <option value="Chevy">Chevy</option>
+        <option value="Lincoln">Lincoln</option>
+        <option value="Honda">Honda</option>
+        <option value="Nissan">Nissan</option>
+        <option value="BMW">BMW</option>
+        <option value="Dodge">Dodge</option>
+        <option value="GMC">GMC</option>
+      </select>
+    </form>
+
+    <fieldset>
+      <legend>Favorite Baseball Team</legend>
+      <input type="radio" name="baseballChoice" value="Mariners" /> Mariners
+      <input type="radio" name="baseballChoice" value="Athletics" /> Athletics
+      <input type="radio" name="baseballChoice" value="Rays" /> Athletics
+      <label>League
+        <br />
+        <input type="text" name="league" />
+      </label>
+    </fieldset>
+
+  </body>
+
+</html>
