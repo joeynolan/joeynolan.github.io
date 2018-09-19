@@ -1,0 +1,34 @@
+
+body {
+  text-align: center;
+}
+
+  table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: green;
+    border-width: thick;
+  }
+
+ ul.one {
+   background-color: orange;
+   border-style: dotted;
+   border-color: red;
+   list-style-type: upper-roman;
+ }
+
+ ol.one {
+   background-color: red;
+   border-style: dashed;
+   border-color: green;
+   list-style-type: circle;
+ }
+
+ tr.odd:hover {
+   background-color: 76DBDB
+ }
+
+ tr.even:hover {
+   background-color: BBBBEE;
+ }
