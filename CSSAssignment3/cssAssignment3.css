@@ -1,0 +1,41 @@
+
+  h1 {
+    color: blue;
+  }
+
+  body {
+    background-image: url(pattern.jpg);
+    background-repeat: repeat;
+  }
+
+  img {
+    height: 310px;
+    width: 310px;
+  }
+
+  div.blue {
+    width: 350px;
+    height: 350px;
+    background-color: BDD0FF;
+  }
+
+  div.red {
+    width: 350px;
+    height: 350px;
+    background-color: FFA8A6;
+  }
+
+  div.column {
+    float: left;
+    width: 33%;
+  }
+
+  div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  div.globe {
+    float: right;
+  }
