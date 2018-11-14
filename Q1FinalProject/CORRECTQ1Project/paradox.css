@@ -1,0 +1,20 @@
+
+  body{
+    background-color: #001d89;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h3
+
+  p {
+    text-align: center;
+  }
+
+  ul.nav {
+    display: inline-block;
+    list-style-type: none;
+  }

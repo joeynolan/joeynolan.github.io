@@ -1,0 +1,15 @@
+
+body{
+  background-color: #001d89;
+  color: white;
+}
+
+ul.nav {
+  display: inline-block;
+  list-style-type: none;
+}
+
+image {
+  width: 500px;
+  height: 250px;
+}
