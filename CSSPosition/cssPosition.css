@@ -1,0 +1,39 @@
+  body {
+    text-align: center;
+    width: 960px;
+  }
+
+  .one {
+    margin: 10px;
+    width: 940px;
+    background-color: red;
+    float: left;
+  }
+
+  .two {
+    margin: 10px;
+    width: 460px;
+    background-color: red;
+    float: left;
+  }
+
+  .three {
+    margin: 10px;
+    width: 300px;
+    background-color: red;
+    float: left;
+  }
+
+  .four {
+    margin: 10px;
+    width: 220px;
+    background-color: red;
+    float: left;
+  }
+
+  .six {
+    margin: 10px;
+    width: 140px;
+    background-color: red;
+    float: left;
+  }
